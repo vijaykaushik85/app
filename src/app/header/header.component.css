@@ -1,0 +1,50 @@
+
+.main-menu li {
+    padding: 0px 14px;
+}
+.main-menu li a {
+    font-family: Montserrat;
+    color: #000;
+    font-weight: 500;
+}
+
+.main-menu li a .active{
+    color:#ff5d22;
+}
+
+.main-menu li a:hover {
+    color:#ff5d22;
+}
+.search-input .form-control {
+    background: #f5f5f5;
+    border: none;
+    height: 48px;
+}
+.search-input .btn {
+    background: #f5f5f5;
+    font-size: 1.4rem;
+    color: #ff5d22;
+}
+nav.navbar.navbar-expand-lg {
+    padding: 10px 44px;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  .main-menu .dropdown-menu {
+    border-top: 2px solid #ff5d22;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    box-shadow: 0 0 15px 0 rgb(0 0 0 / 10%);
+}
+.navscroll.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 28px 0 rgb(0 0 0 / 9%);
+    background-color: #fff;
+}

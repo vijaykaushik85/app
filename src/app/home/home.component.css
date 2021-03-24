@@ -1,0 +1,15 @@
+section.homeWrapper {
+    background-image: url(/assets/images/main-header.png);
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+}
+.header-right img {
+    max-width: 600px;
+}
+.header-left h1 {
+    font-size: 3.3rem;
+    font-weight: 600;
+}

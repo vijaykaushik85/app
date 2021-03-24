@@ -1,1 +1,57 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;0,800;1,500&family=Poppins:wght@200;300;400&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Montserrat;
+}
+
+p,li,a {
+    font-family: poppins;
+    color: #6b6b84;
+}
+.main-btn {
+    background: #ff5d22;
+    color: #fff;
+    padding: 10px 10px;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    transition: .8s;
+}
+.main-btn:hover {
+    background-color: #221638;
+    transition: .8s;
+    color:#fff;
+}
+::placeholder{
+    font-family: poppins;
+    font-size: 0.9rem;
+}
+
+ul{
+    padding-left: 0;
+    list-style: none;
+}
+.break{
+    margin-bottom: 50px;
+}
+.container {
+    max-width: 1230px;
+}
+.section-text {
+    text-align: center;
+    width: 700px;
+    margin: auto;
+}
+.section-text h1 {
+    font-weight: 600;
+    font-size: 26px;
+    margin-top: 20px;
+}
+.section-text span {
+    color: #ff5d22;
+    font-family: 'Poppins';
+}

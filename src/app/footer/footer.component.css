@@ -1,0 +1,49 @@
+.footer {
+    background: #fefcf8;
+    padding: 60px 20px 30px 20px;
+    position: relative;
+}
+.footer::before {
+    content: '';
+    background-image: url(/assets/images/map.png);
+    position: absolute;
+    top: 16%;
+    width: 650px;
+    height: 360px;
+    background-repeat: no-repeat;
+    left: 28%;
+}
+.footer1 img {
+    margin-bottom: 20px;
+}
+
+.footer1 p {
+    font-family: 'Poppins';
+    color: #6b6b84;
+    line-height: 1.8;
+}
+
+.footer1 i {
+    font-size: 1.8rem;
+    padding: 10px 20px 10px 0px;
+    color: #6b6b84;
+}
+
+.footer1 i:hover {
+    color: #ff5d22;
+}
+.footer2 h4 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.footer2 li {
+    color: #6b6b84;
+    padding: 10px 10px 10px 0px;
+}
+.footer2 li:hover {
+    color: #ff5d22;
+}
+.footer2 i {
+    color: #ff5d22;
+    font-size: 18px;
+}
