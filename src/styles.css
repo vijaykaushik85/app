@@ -43,8 +43,6 @@ ul{
 }
 .section-text {
     text-align: center;
-    width: 700px;
-    margin: auto;
 }
 .section-text h1 {
     font-weight: 600;
@@ -54,4 +52,20 @@ ul{
 .section-text span {
     color: #ff5d22;
     font-family: 'Poppins';
+}
+.maincard i {
+    font-size: 65px;
+    color: #ff5d22;
+}
+
+
+.maincard h1 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+    transition: .5s;
+}
+.maincard h1:hover {
+    color: #ff5d22;
+    transition: .5s; 
 }

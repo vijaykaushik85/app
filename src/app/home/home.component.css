@@ -13,3 +13,40 @@ section.homeWrapper {
     font-size: 3.3rem;
     font-weight: 600;
 }
+.hostingimg img {
+    max-width: 100%;
+}
+span.hostinD {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 0 10px rgb(0 0 0 / 5%);
+    margin-bottom: 15px;
+    padding: 10px 10px;
+}
+
+.hostinD i {
+    background: #deecf4;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 22px;
+    margin-right: 14px;
+}
+.hostinD i:hover {
+    background: #ff5d22;
+    color: #fff;
+}
+
+.hostinD p {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.hostingType ul {
+    overflow: hidden;
+}
+
+.hostingType li {
+    width: 45%;
+    float: left;
+    margin-right: 26px;
+}

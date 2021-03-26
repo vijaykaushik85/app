@@ -1,7 +1,14 @@
 .maincard{
     box-shadow: 0 0 10px rgb(0 0 0 / 5%);
     background-color: #fff;
-    padding: 20px 20px;
+    padding:50px 30px;
     text-align: center;
     
 }
+
+
+.maincard a {
+    color: #ff5d22;
+    text-decoration: none;
+}
+

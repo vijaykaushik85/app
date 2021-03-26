@@ -12,4 +12,16 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+HostingDetails = [
+{name:'Cloud Databases'},
+{name:'File Storage'},
+{name:'File Backups'},
+{name:'Email Servers'},
+{name:'Website Hosting'},
+{name:'Forex Trading'},
+{name:'Remote Desktop'},
+{name:'Hybrid Cloud'}
+
+]
+
 }

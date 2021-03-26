@@ -41,10 +41,60 @@
             </div>
 
             <div class="col-md-4">
-                <app-card></app-card>
+                <app-card>
+                    <i class="fa fa-rocket" aria-hidden="true"></i>
+                    <h1>Code Security</h1>
+                </app-card>
+            </div>
+            <div class="col-md-4">
+                <app-card>
+                    <i class="fa fa-laptop" aria-hidden="true"></i>
+                    <h1>Team Management</h1>
+                </app-card>
+            </div>
+            <div class="col-md-4">
+                <app-card>
+                    <i class="fa fa-suitcase" aria-hidden="true"></i>
+                    <h1>Access Controlled</h1>
+                </app-card>
             </div>
 
-
+        </div>
+    </div>
+</section>
+<div class="break"></div>
+<section class="hostingwraaper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="hostingimg">
+                    <img src="assets/images/service1.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="section-text">
+                    <span>
+                        <img src="assets/images/section-icon.png" alt=""> 
+                        SERVICES
+                    </span>
+                    <h1>Cloud Hosting Services</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                </div>
+            
+                <div class="hostingType">
+                    <ul>
+                        
+                        <li *ngFor="let mydetails of HostingDetails">
+                            <span class="hostinD">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                               <p>{{mydetails.name}}</p> 
+                            </span>
+                        </li>
+                   
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </section>
