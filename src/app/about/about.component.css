@@ -1,0 +1,12 @@
+.exdetails {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #dedede;
+    border-radius: 6px;
+    padding: 15px;
+}
+.exdetails:hover {
+border: 1px solid #ff5d22;
+}

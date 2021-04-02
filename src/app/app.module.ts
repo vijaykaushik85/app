@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { CardComponent } from './card/card.component';
+import { InnertopComponent } from './innertop/innertop.component';
 
 
 
@@ -18,7 +19,8 @@ import { CardComponent } from './card/card.component';
     FooterComponent,
     HomeComponent,
     AboutComponent,
-    CardComponent
+    CardComponent,
+    InnertopComponent
   ],
   imports: [
     BrowserModule,

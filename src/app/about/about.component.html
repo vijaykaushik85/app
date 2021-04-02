@@ -1,1 +1,62 @@
-<p>about works!</p>
+<section class="aboutwrapper">
+    <app-innertop> 
+            <h1 class="innerHading">About Us</h1>
+            <ol class="breadcrumb bg-transparent innerLink">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item" aria-current="page">About Us</li>
+              </ol>
+    </app-innertop>
+
+    <div class="break"></div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="main-img">
+                    <img src="assets/images/about-img.png" alt="">
+                </div>
+                
+            </div>
+            <div class="col-md-6">
+                <div class="section-text text-left">
+                    <span>
+                        <img src="assets/images/section-icon.png" alt=""> 
+                        ABOUT US
+                    </span>
+                    <h1>Drive Digital Revolution Through Data Scienc</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                </div>
+                <div class="ourExperience">
+                    <div class="row">
+                        <div class="col-md-6" *ngFor="let aboutDeatils of Experince">
+                            <div class="exdetails">
+                                <img src="{{aboutDeatils.Eimg}}">
+                                <div class="exdetails-inner">
+                                    <h2>{{aboutDeatils.Edetail}}</h2>
+                                    <span>{{aboutDeatils.EdetailIN}}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <button type="button" class="btn main-btn"><i aria-hidden="true" class="fa fa-arrow-right"></i> More About Us </button>
+            </div>
+        </div>
+
+
+        <section class="OurHistory">
+            <div class="row">
+                <div class=""></div>
+            </div>
+        </section>
+
+    </div>
+
+
+
+</section>
+
+

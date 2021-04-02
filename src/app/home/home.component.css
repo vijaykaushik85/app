@@ -21,7 +21,7 @@ span.hostinD {
     align-items: center;
     background: #fff;
     box-shadow: 0 0 10px rgb(0 0 0 / 5%);
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     padding: 10px 10px;
 }
 
@@ -49,4 +49,58 @@ span.hostinD {
     width: 45%;
     float: left;
     margin-right: 26px;
+}
+.featureCard {
+    background: #fff;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.featureCard h1 {
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.teamCard img {
+    max-width: 100%;
+}
+.teamCard {
+    text-align: center;
+}
+
+.teamCard h2 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.teamCard h3 {
+    font-size: 16px;
+    color: #ff5d22;
+    font-weight: 600;
+    transition: .5s;
+}
+.teamCard li {
+    display: inline;
+    padding: 10px;
+    font-size: 22px;
+}
+.teamCard ul {
+    margin-bottom: 0;
+    position: relative;
+    top: -40px;
+    visibility: hidden;
+    opacity: 1;
+    transition: .5s;
+}
+.teamCard:hover ul{
+    visibility: visible;
+    opacity: 1;
+}
+.sectionIMG {
+    background-image: url(/assets/images/circle-shape1.png);
+    width: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 30px;
 }

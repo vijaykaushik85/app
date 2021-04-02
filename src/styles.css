@@ -41,6 +41,9 @@ ul{
 .container {
     max-width: 1230px;
 }
+.container-fluid {
+    max-width: 1320px;
+}
 .section-text {
     text-align: center;
 }
@@ -68,4 +71,26 @@ ul{
 .maincard h1:hover {
     color: #ff5d22;
     transition: .5s; 
+}
+.sectionBG {
+    background: #f1f8fb;
+    padding: 30px;
+}
+.innerDetails {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.innerDetails h1 {
+    font-weight: 600;
+    color: #ff5d22;
+}
+
+.innerDetails li {
+    font-size: 20px;
+}
+.main-img img {
+    max-width: 100%;
 }

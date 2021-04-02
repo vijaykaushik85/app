@@ -72,7 +72,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="section-text">
+                <div class="section-text text-left">
                     <span>
                         <img src="assets/images/section-icon.png" alt=""> 
                         SERVICES
@@ -81,21 +81,135 @@
                     <p>Lorem ipsum dolor sit amet, consectetur
                         adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
                 </div>
-            
                 <div class="hostingType">
                     <ul>
-                        
                         <li *ngFor="let mydetails of HostingDetails">
                             <span class="hostinD">
                                 <i class="fa fa-check" aria-hidden="true"></i>
                                <p>{{mydetails.name}}</p> 
                             </span>
                         </li>
-                   
                     </ul>
                 </div>
             </div>
         </div>
     </div>
 </section>
+<div class="break"></div>
+<section class="hostingwraaper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="section-text text-left">
+                    <span>
+                        <img src="assets/images/section-icon.png" alt=""> 
+                        SERVICES
+                    </span>
+                    <h1>Design & Development</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                </div>
+                <div class="hostingType">
+                    <ul>
+                        <li *ngFor = "let designD of DesignDetails">
+                            <span class="hostinD">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                               <p>{{designD.name}}</p>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="hostingimg">
+                    <img src="assets/images/service2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="break"></div>
 
+<section class="solutionwrapper sectionBG">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-text">
+                    <span>
+                        <img src="assets/images/section-icon.png" alt=""> 
+                        OUR FEATURES
+                    </span>
+                    <h1>We’re Here To Help</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                </div>
+                <div class="break"></div>
+            </div>
+            
+            <div class="col-md-4" *ngFor ="let myfeature of FeatureDetails">
+                <div class="featureCard">
+                    <img src="{{myfeature.Fimg}}" alt="">
+                    <h1>{{myfeature.Fname}}</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                         tempor incididunt ut labore et dolore.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="break"></div>
+
+<section class="solutionwrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-text">
+                    <span>
+                        <img src="assets/images/section-icon.png" alt=""> 
+                        TEAM MEMBERS
+                    </span>
+                    <h1>Our Awesome Team</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                </div>
+                <div class="break"></div>
+            </div>
+            
+            <div class="col-md-3" *ngFor ="let myteam of TeamDetails">
+                <div class="teamCard">
+                   <img src="{{myteam.Timg}}" alt="">
+                   <ul>
+                    <li><i aria-hidden="true" class="fa fa-facebook-square"></i></li>
+                    <li><i aria-hidden="true" class="fa fa-twitter-square"></i></li>
+                    <li><i aria-hidden="true" class="fa fa-instagram"></i></li>
+                    <li><i aria-hidden="true" class="fa fa-linkedin-square"></i></li>
+                </ul>
+                   <h2>{{myteam.Tname}}</h2>
+                   <h3>{{myteam.Temp}}</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="break"></div>
+<section class="solutionwrapper sectionIMG">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="lastimg">
+                    <img src="assets/images/project-start.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="section-text text-left">
+                    <h1>We Like to Start Your Project With Us</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                         sed do eiusmod tempor incididunt ut labore et dolore magna.
+                    </p>
+                    <button type="button" class="btn main-btn"><i aria-hidden="true" class="fa fa-arrow-right"></i> Get Strated </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="break"></div>

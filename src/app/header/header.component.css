@@ -48,3 +48,6 @@ nav.navbar.navbar-expand-lg {
     box-shadow: 0 2px 28px 0 rgb(0 0 0 / 9%);
     background-color: #fff;
 }
+.main-menu li a.nav-link.active {
+    color: #ff5d22 ;
+}
