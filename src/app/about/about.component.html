@@ -46,16 +46,51 @@
             </div>
         </div>
 
-
-        <section class="OurHistory">
-            <div class="row">
-                <div class=""></div>
-            </div>
-        </section>
-
+        <div class="break"></div>
     </div>
 
-
+    <section class="OurHistory sectionBG ">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-text">
+                    <span>
+                        <img src="assets/images/section-icon.png" alt=""> 
+                        OUR HISTORY
+                    </span>
+                    <h1>History Begins in 2017</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                </div>
+                <div class="break"></div>
+            </div>
+            </div>
+           <div class="row d-flex">
+            <div class="col-md-2">
+                <div class="historyDate" *ngFor="let Historymain of HistoryDate">
+                    <h6>{{Historymain.Hyear}}</h6>
+                    <p>{{Historymain.Hdate}}</p>
+                </div>
+            </div>
+            <div class="col-md-10">
+                <div class="historyDetails">
+                    <ul>
+                        <li *ngFor="let historyData of Hdetails">
+                            <span>
+                                <h2>{{historyData.hdetails}}</h2>
+                                <p>{{historyData.Hpara}}</p>
+                            </span>
+                           <div class="Himg">
+                            <img src="{{historyData.Himg}}" alt="">
+                           </div>
+                           
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
 
 </section>
 

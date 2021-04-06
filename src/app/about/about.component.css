@@ -10,3 +10,23 @@
 .exdetails:hover {
 border: 1px solid #ff5d22;
 }
+.historyDate {
+    border-right: 1px solid #d0cece;
+    padding: 30px 20px;
+    text-align: end;
+    height: 335px;
+}
+.historyDate h6 {
+    color: #ff5d22;
+}
+.historyDetails li {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.Himg img {
+    max-width: 340px;
+}
