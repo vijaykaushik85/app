@@ -94,3 +94,7 @@ ul{
 .main-img img {
     max-width: 100%;
 }
+a.mainanchor {
+    color: #fb5c21;
+    text-decoration: none;
+}
