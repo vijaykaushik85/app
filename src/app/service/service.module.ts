@@ -1,12 +1,27 @@
 import { NgModule } from '@angular/core';
+import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { ServiceComponent } from './service.component';
+import { ServicedetailsComponent } from './servicedetails/servicedetails.component';
+import { CommondesignModule } from '../sharedmodule/commondesign.module';
 
-
+const serviceroutes = [
+  {path:'', children:[
+    {path:'', component:ServiceComponent},
+    {path:'servicedetails', component:ServicedetailsComponent},
+  ]},
+]
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    ServiceComponent,
+    ServicedetailsComponent,
+  ],
   imports: [
-    CommonModule
+    CommonModule,
+    CommondesignModule,
+    RouterModule.forChild(serviceroutes),
   ]
 })
 export class ServiceModule { }
+console.log ('service module working')

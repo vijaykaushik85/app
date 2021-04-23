@@ -8,6 +8,8 @@ const approutes: Routes = [
   {path:'', redirectTo:'home' , pathMatch:'full'},
   {path:'home', component:HomeComponent},
   {path:'about', component:AboutComponent},
+  {path:'service', loadChildren:() => import('./service/service.module').then(m => m.ServiceModule)},
+
 ];
 
 @NgModule({

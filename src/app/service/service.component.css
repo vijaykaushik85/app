@@ -1,0 +1,7 @@
+.serBg{
+    background: url('/assets/images/serBg.jpg');
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px;
+}
