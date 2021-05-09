@@ -8,7 +8,7 @@ import { AboutComponent } from './about/about.component';
 import { CommondesignModule } from './sharedmodule/commondesign.module';
 import { ContactComponent } from './contact/contact.component';
 import { BlogComponent } from './blog/blog.component';
-import { BlogcardComponent } from './blog/blogcard/blogcard.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +17,7 @@ import { BlogcardComponent } from './blog/blogcard/blogcard.component';
     AboutComponent,
     ContactComponent,
     BlogComponent,
-    BlogcardComponent,
+    LoginComponent,
   ],
   imports: [
     AppRoutingModule,

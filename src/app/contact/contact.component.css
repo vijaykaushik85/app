@@ -27,22 +27,3 @@
     max-width: 100%;
 }
 
-.contact-form {
-    background: #fff;
-    padding: 40px;
-    box-shadow: 0 0 20px hsl(0deg 0% 62% / 16%);
-    border-radius: 5px;
-}
-.contact-form .form-control {
-    height: 54px;
-    background: #f2f2f2;
-    border: none;
-}
-.contact-form .form-control:focus {
-    height: 54px;
-    background: #ffffff;
-    border: 1px solid #ff5d22;
-    outline: none;
-    box-shadow: none;
-    
-}

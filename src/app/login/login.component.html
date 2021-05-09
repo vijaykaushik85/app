@@ -1,0 +1,70 @@
+<section class="loginwrapper">
+    <app-innertop>
+        <h1 class="innerHading">Profile Authentication</h1>
+        <ol class="breadcrumb bg-transparent innerLink">
+            <li class="breadcrumb-item"><a routerLink="/home">Home</a></li>
+            <li class="breadcrumb-item" aria-current="page">Profile Authentication</li>
+          </ol>
+    </app-innertop>
+<div class="break"></div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="site-form">
+                <h1>Login</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="">Username or email</label>
+                      <input type="email" class="form-control" id="" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Password</label>
+                        <input type="email" class="form-control" id="" placeholder="Password">
+                      </div> 
+                      <div class="form-check form-check-inline mt-4">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">Remember me</label>
+                      </div>
+                      <span class="pull-right mt-4"><a href="#"> Forgot your password?</a></span> 
+                      <div class="text-left mt-4">
+                        <button type="button" class="btn main-btn w-100">Log In </button>
+                      </div>
+                  </form>  
+            </div>
+        </div>
+
+
+        <div class="col-md-6">
+            <div class="site-form">
+                <h1>Register</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="">Username</label>
+                      <input type="text" class="form-control" id="" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Email</label>
+                        <input type="email" class="form-control" id="" placeholder="Enter Your Email">
+                      </div> 
+                    <div class="form-group">
+                        <label for="">Password</label>
+                        <input type="text" class="form-control" id="" placeholder="Password">
+                      </div> 
+                      
+                      <p class="text-left mt-4 d-block">
+                        <i>The password should be at least eight characters long. To make it stronger, use upper and lower case letters, numbers, and symbols like ! " ? $ % ^ & )</i>
+                      </p> 
+                      <div class="text-left mt-4">
+                        <button type="button" class="btn main-btn w-100">Log In </button>
+                      </div>
+                  </form>  
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+</section>
+<div class="break"></div>
+<app-footer></app-footer>
