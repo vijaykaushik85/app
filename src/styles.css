@@ -35,8 +35,8 @@ ul{
     padding-left: 0;
     list-style: none;
 }
-.break{
-    margin-bottom: 50px;
+.break {
+    padding: 40px 0px 40px 0px;
 }
 .container {
     max-width: 1230px;

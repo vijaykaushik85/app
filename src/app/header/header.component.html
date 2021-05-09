@@ -15,41 +15,26 @@
         <li class="nav-item">
           <a class="nav-link" routerLink="/service" routerLinkActive="active">Service</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Case Study
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Case Studies</a>
-            <a class="dropdown-item" href="#">Case Studies Details</a>
-          </div>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/casestudy" routerLinkActive="active">Case Studies</a>
         </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/blog" routerLinkActive="active">Blogs</a>
+      </li>
+
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Pages
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Courses </a>
-            <a class="dropdown-item" href="#">Events </a>
-            <a class="dropdown-item" href="#">Contact</a>
-            <a class="dropdown-item" href="#">Gallery</a>
-            <a class="dropdown-item" href="#">FAQ</a>
-            <a class="dropdown-item" href="#">Coming Soon</a>
-            <a class="dropdown-item" href="#">Membership Levels</a>
+            <a class="dropdown-item" routerLink="/contact" routerLinkActive="active">Contact</a>
             <a class="dropdown-item" href="#">Login/Register</a>
             <a class="dropdown-item" href="#">Privacy Policy</a>
             <a class="dropdown-item" href="#">Terms of Service</a>
           </div>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Blogs
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Blogs Grid</a>
-            <a class="dropdown-item" href="#">Blogs Details</a>
-          </div>
-        </li>
+        
        
       </ul>
       <form class="form-inline mr-4">
@@ -69,4 +54,4 @@
 
     </div>
   </nav>
-  
+  <router-outlet></router-outlet>

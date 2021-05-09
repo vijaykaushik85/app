@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import { RouterModule,Routes } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { ServiceComponent } from './service.component';
 import { ServicedetailsComponent } from './servicedetails/servicedetails.component';
 import { CommondesignModule } from '../sharedmodule/commondesign.module';
 
-const serviceroutes = [
+const serviceroutes: Routes = [
   {path:'', children:[
     {path:'', component:ServiceComponent},
     {path:'servicedetails', component:ServicedetailsComponent},

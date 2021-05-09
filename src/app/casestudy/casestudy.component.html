@@ -1,0 +1,30 @@
+<section class="casestudywrapper">
+  
+<app-innertop>
+    <h1 class="innerHading">Case Study</h1>
+    <ol class="breadcrumb bg-transparent innerLink">
+        <li class="breadcrumb-item"><a routerLink="/home">Home</a></li>
+        <li class="breadcrumb-item" aria-current="page">Case Study</li>
+      </ol>
+</app-innertop>
+<div class="break"></div>
+<section class="caseinner">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6" *ngFor="let CaseDetails of CaseAll">
+        <div class="case maincard">
+          <img src="{{CaseDetails.Cimg}}"> 
+          <div class="casecontent">
+          <h1>{{CaseDetails.Cname}}</h1>
+          <a routerLink="casedetails">{{CaseDetails.Ctopic}}</a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<app-footer></app-footer>
+
+</section>

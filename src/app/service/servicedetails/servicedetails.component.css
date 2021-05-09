@@ -1,0 +1,29 @@
+.servicedetailsinnerimg img {
+    max-width: 100%;
+}
+.servicedetailsinnertext li {
+    padding: 6px 2px;
+    list-style: disc;
+    color: #ff5d22;
+}
+.servicedetailsinnertext {
+    margin-left: 40px;
+}
+.servicedetailsright {
+    padding-left: 0;
+    list-style-type: none;
+    background-color: #fff;
+    box-shadow: 0 5px 40px 10px #eaeaef;
+    margin-bottom: 30px;
+}
+
+.servicedetailsright li:hover {
+    background-color: #ff5d22;
+    color: #fff;
+}
+.servicedetailsright li {
+    padding: 15px 30px;
+    border-bottom: 1px solid #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+}

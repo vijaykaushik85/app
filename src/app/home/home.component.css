@@ -67,8 +67,14 @@ span.hostinD {
 }
 .teamCard {
     text-align: center;
+    background-color: #fff;
+    transition: .5s;
+    padding: 10px;
 }
-
+.teamCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 2px 28px 0 rgb(0 0 0 / 9%);
+}
 .teamCard h2 {
     font-size: 26px;
     font-weight: 600;
@@ -82,8 +88,12 @@ span.hostinD {
 }
 .teamCard li {
     display: inline;
-    padding: 10px;
-    font-size: 22px;
+    padding: 6px 10px;
+    font-size: 16px;
+    background: #ff5d22;
+    margin-left: 5px;
+    border-radius: 50%;
+    color: #fff;
 }
 .teamCard ul {
     margin-bottom: 0;

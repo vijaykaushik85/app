@@ -1,0 +1,17 @@
+.case {
+    background: #fafafb;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.case img {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.case img:hover {
+    transition: .5s;
+}
+.casecontent {
+    padding: 20px;
+}

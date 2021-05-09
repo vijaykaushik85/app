@@ -1,0 +1,34 @@
+.servicedetailsinnerimg img {
+    max-width: 100%;
+}
+.servicedetailsinnertext li {
+    padding: 6px 2px;
+    list-style: disc;
+    color: #ff5d22;
+}
+.casedetailside {
+    background-color: #fff;
+    box-shadow: 0 -10px 30px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    border-top: 3px solid #ff5d22;
+    padding: 30px 30px;
+}
+.casedetailside li {
+    display: flex;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 45px;
+}
+.casedetailside i {
+    font-size: 26px;
+    margin-right: 10px;
+    color: #ff5d22;
+}
+.caseadd h4 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+}
+.caseadd p {
+    margin-bottom: 4px;
+    font-size: 18px;
+}

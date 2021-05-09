@@ -1,0 +1,38 @@
+.blogDetails {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogpost img {
+    max-width: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.blogDetails span {
+    font-family: 'Poppins';
+    font-weight: 300;
+    color: #717171;
+}
+.blogpost i {
+    color: #ff5d22;
+    margin-right: 10px;
+}
+.blogCard {
+    background: #fffbf5;
+    border: none;
+    transition: .5s;
+    margin-bottom: 30px;
+}
+.blogCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 2px 28px 0 rgb(0 0 0 / 9%)
+}
+.blogCard h5{
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 24px;
+}
+.blogCard h5:hover{
+    color: #ff5d22;
+}
